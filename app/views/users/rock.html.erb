@@ -1,0 +1,87 @@
+<div class="container">
+
+    <div class="row">
+
+        <div class="col-lg-12">
+            <ol class="breadcrumb">
+                <li>
+                    <a href="#/">Home</a>
+                </li>
+                <li class="active"><a href="photos/rock" target="_blank">Rock climbing gallery</a></li>
+            </ol>
+            <h1 class="page-header">Rock Climbing</h1>
+        </div>
+    </div>
+
+    <div class="row">
+
+        <div class="col-md-4">
+            <img class="img-responsive" src="images/climbing1.jpg">
+        </div>
+        <div class="col-md-8">
+            <h2 class="page-header">Rock climbing is not a sport, it is a way of life</h2>
+
+            <p>I have been climbing since 1974, when I started climbing with the Boy Scouts in England.  Back then climbing
+            was an exclusive club.  There was no sticky rubber, harnesses or commercial protection devices.  Before you started leading
+            you had to apprentice for years with a skilled leader, and the leader never fell.  If the leader fell, there was a good chance 
+            of serious injury or death.  How could you not be attracted to the sport?</p>
+
+            <p>I was lucky enough to meet a Scout Leader who formed a small group to go hiking and climbing on the weekends.  I was
+            hooked to climbing instantly, and before long I was itching to travel and climb around the world.  It took a while to
+            realise my dream, but I have been lucky enough to have managed to fullful my dream, in fact I am still living it.</p>
+        </div>
+
+  </div>
+
+    <div class="row">
+
+	<div class="col-lg-12" ng-controller="pickCtrl">
+           	<h2 class="page-header">Selected stories from the world of rock</h2>
+                <button type="button" class="btn btn-info active" ng-click="test(pick=1)">My first rappel</button>
+                <button type="button" class="btn btn-info" ng-click="test(pick=2)">Service Two</button>
+                <button type="button" class="btn btn-info" ng-click="test(pick=3)">Service Three</button>
+                <button type="button" class="btn btn-info" ng-click="test(pick=4)">Service Four</button>
+                <button type="button" class="btn btn-info" ng-click="test(pick=5)">Service Five</button>
+                            
+                <p ng-show="button1">I remember my first rappel.  I was 14 and we had set up a rope in an old quarry.  I hiked to the top and stood in line, however when my time came I chickened out.  By the end of the day I still had not rappelled.  The leader was about to take the ropes down when I finally got the courage to commit.  I grabbed the rope and threaded it between my legs, across my chest, and down over my back.  What a thrill.  I have never looked back, although I still look down and check before I commit to a rappel.<figure ng-show="button1"><img src="images/rappel.jpg" width="300"><figcaption>note: not me</figcaption></figure></p>
+                 
+                <p ng-show="button2">Coming soon 2.</p>
+
+                <p ng-show="button3">Coming soon 3</p>
+
+                <p ng-show="button4">Coming soon 4</p>
+
+                <p ng-show="button5">Coming soon 5</p>
+           </div>
+        </div>
+   </div>
+
+    <div class="row">
+
+        <div class="col-lg-12">
+            <h2 class="page-header">Selected Images</h2>
+        </div>
+
+        <div class="col-sm-4">
+            <img src="../photos/rock/New_Brunswick/Bald_Hill/slides/Baldhill-03080601.jpg" width="338" height="450" alt="Denise on Waterfall Wall" class="img-responsive">
+            <p>
+                Climbing at Baldhill in New Brunswick.
+            </p>
+            <a class="btn btn-link btn-sm pull-right">More <i class="fa fa-angle-right"></i></a>
+        </div>
+
+        <div class="col-sm-4">
+            <img src="../photos/rock/New_Brunswick/Bald_Hill/slides/Baldhill-03080602.jpg" width="338" height="450" alt="Jon on Ministers Face" class="img-responsive">
+            <p>Climbing at Baldhill in New Brunswick.</p>
+            <a class="btn btn-link btn-sm pull-right">More <i class="fa fa-angle-right"></i></a>
+        </div>
+
+        <div class="col-sm-4">
+            <img src="../photos/rock/New_Brunswick/Bald_Hill/slides/Baldhill-03080603.jpg" width="338" height="450" alt="Jon on Ministers Face" class="img-responsive">
+            <p>Climbing at Baldhill in New Brunswick.</p>
+            <a class="btn btn-link btn-sm pull-right">More <i class="fa fa-angle-right"></i></a>
+        </div>
+
+    </div>
+
+</div>
